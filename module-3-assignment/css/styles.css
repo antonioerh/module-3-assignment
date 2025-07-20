@@ -13,31 +13,56 @@ nav.navbar-default {
     font-size: 2em;
 }
 
-h2#h2-site {
-    text-align: center;
-    margin-bottom: 25px;
+.navbar-default .navbar-nav>li>a {
+    color: black !important;
+}
+
+.navbar-default .navbar-toggle {
+    border: 1.5px solid black !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black !important;
 }
 
 div.col-lg-4.col-md-6.col-sm-12 {
     background-color: #999999;
     margin: 10px;
     padding: 10px;
-    border: 1.5px solid black;
+    border: 1.4px solid black;
 }
 
 section {
     color: black;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 500;
+    margin-bottom: 3px;
 }
 
 p {
     color: black;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     div.col-lg-4 {
         width: calc(33.33333333% - 20px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    div.col-md-6 {
+        width: calc(50% - 20px);
+    }
+    
+    div.col-md-6:nth-child(3) {
+        width: calc(100% - 20px);
+        clear: left;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    div.col-sm-12 {
+        width: calc(100% - 20px);
     }
 }
