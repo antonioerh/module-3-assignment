@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
 nav.navbar-default {
     background-color: #999999;
     border: 2px solid black;
@@ -11,6 +15,7 @@ nav.navbar-default {
 #navbar-brand {
     color: black;
     font-size: 2em;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -26,6 +31,11 @@ nav.navbar-default {
     background-color: black !important;
 }
 
+h2#h2-site {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
 div.col-lg-4.col-md-6.col-sm-12 {
     background-color: #999999;
     margin: 10px;
@@ -39,6 +49,7 @@ section {
     font-size: 1.5em;
     font-weight: 500;
     margin-bottom: 3px;
+    font-weight: bold;
 }
 
 p {
