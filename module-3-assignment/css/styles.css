@@ -15,6 +15,7 @@ nav.navbar-default {
 
 .navbar-default .navbar-nav>li>a {
     color: black !important;
+    font-size: 1.2em;
 }
 
 .navbar-default .navbar-toggle {
